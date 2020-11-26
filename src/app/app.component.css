@@ -1,0 +1,39 @@
+.btn {
+  margin-left: 5px;
+}
+
+.searchDiv {
+  /* margin-top: -23px; */
+  padding: 4px;
+  display: flex;
+}
+.frmSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myform {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 13px 17px 0px #c5b8b8;
+}
+.searchDiv button {
+  margin-top: 10px;
+}
+
+.leftDrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 60vh;
+  width: 45vw;
+}
+
+.viewTable::-webkit-scrollbar {
+  display: none;
+}
